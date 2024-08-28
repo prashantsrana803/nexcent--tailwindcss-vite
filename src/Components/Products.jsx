@@ -2,6 +2,13 @@ import React from "react";
 import unlock2 from "../assets/unlock2.png";
 import { FaArrowRightLong } from "react-icons/fa6";
 import tesla from "../assets/tesla.png";
+import Logo from '../assets/company/Logo.png'
+import Logo1 from '../assets/company/Logo-1.png'
+import Logo2 from '../assets/company/Logo-2.png'
+import Logo3 from '../assets/company/Logo-3.png'
+import Logo4 from '../assets/company/Logo-4.png'
+import Logo5 from '../assets/company/Logo-5.png'
+
 
 const Products = () => {
   return (
@@ -65,32 +72,32 @@ const Products = () => {
                 <div>
                   <div className="flex items-center gap-8 flex-wrap my-5">
                     <img
-                      src="/src/assets/company/Logo.png"
+                      src={Logo}
                       alt=""
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company/Logo-1.png"
+                      src={Logo1}
                       alt=""
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company/Logo-2.png"
+                      src={Logo2}
                       alt=""
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company/Logo-3.png"
+                      src={Logo3}
                       alt=""
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company/Logo-4.png"
+                      src={Logo4}
                       alt=""
                       className="cursor-pointer"
                     />
                     <img
-                      src="/src/assets/company/Logo-5.png"
+                        src={Logo5}
                       alt=""
                       className="cursor-pointer"
                     />

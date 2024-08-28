@@ -1,23 +1,26 @@
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Market1 from '../assets/market1.png'
+import Market2 from '../assets/market2.png'
+import Market3 from '../assets/market3.png'
 
 const Blog = () => {
   const blogs = [
     {
       id: 1,
       title: "creating Streamlined Safeguaring Processes with OneRen",
-      image: "/src/assets/market1.png"
+      image: Market1
     },
     {
       id: 2,
       title:
         "What are your safeguarding responsibilities and how can you manage them?",
-      image: "/src/assets/market2.png"
+      image: Market2
     },
     {
       id: 3,
       title: "Revamping the Membership Model with Triathlon Australia",
-      image: "/src/assets/market3.png"
+      image: Market3
     },
   ];
   return (

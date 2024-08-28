@@ -2,6 +2,13 @@ import React from "react";
 import icon1 from "../assets/community/Icon1.svg";
 import icon2 from "../assets/community/Icon2.svg";
 import icon3 from "../assets/community/Icon3.svg";
+import Icon1 from "../assets/clients/icon1.svg";
+import Icon2 from "../assets/clients/icon2.svg";
+import Icon3 from "../assets/clients/icon3.svg";
+import Icon4 from "../assets/clients/icon4.svg";
+import Icon5 from "../assets/clients/icon5.svg";
+import Icon6 from "../assets/clients/icon6.svg";
+import Icon7 from "../assets/clients/icon7.svg";
 
 const Services = () => {
   const services = [
@@ -39,13 +46,13 @@ const Services = () => {
         {/* company logo */}
 
         <div className=" my-12 flex flex-wrap justify-between items-center gap-8 ">
-          <img src="/src/assets/clients/icon1.svg" alt="" />
-          <img src="/src/assets/clients/icon2.svg" alt="" />
-          <img src="/src/assets/clients/icon3.svg" alt="" />
-          <img src="/src/assets/clients/icon4.svg" alt="" />
-          <img src="/src/assets/clients/icon5.svg" alt="" />
-          <img src="/src/assets/clients/icon6.svg" alt="" />
-          <img src="/src/assets/clients/icon7.svg" alt="" />
+          <img src={Icon1} alt="" />
+          <img src={Icon2} alt="" />
+          <img src={Icon3} alt="" />
+          <img src={Icon4} alt="" />
+          <img src={Icon5} alt="" />
+          <img src={Icon6} alt="" />
+          <img src={Icon7} alt="" />
         </div>
       </div>
 
